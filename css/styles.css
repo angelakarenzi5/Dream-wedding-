@@ -5,6 +5,7 @@ ul {
   }
   li {
     float: left;
+
   }
   
   li a {
@@ -12,14 +13,15 @@ ul {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+    color: #9932CC;
   }
   
   /* Change the link color to #111 (black) on hover */
   li a:hover {
-    background-color: #111;
+    background-color:white;
   }
-  li > a > #dreamWedding{
-      color:blueviolet;
+em{
+      color:#8B008B;
       font-family: 'Lucida sans';
-      font-size: 60px;
+      font-size: 40px;
   }
