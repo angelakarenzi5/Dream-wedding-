@@ -40,7 +40,7 @@ em{
     left:50%;
     top:50%;
     transform: translate(-50%,-50%);
-    position:absolute;
+    position:cover;
     background-color: transparent;
     letter-spacing: 5px;
     text-align:center;
