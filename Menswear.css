@@ -1,0 +1,20 @@
+body{
+  background-image:url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRfuEvhLXKmwVqYD3gEmqlyyBQZrrpcjddsxzk-u_9I6AClctA3aA");
+ background-size:cover;
+ font-family: Georgia, "Arial",
+ Times, serif;
+color: rgb(38, 0, 128);
+background-color: #3dc2da;
+}
+h1 {
+font-family: Helvetica, Geneva, Arial,
+ SunSans-Regular, sans-serif 
+}
+
+img{
+  width: 450px;
+  height: 500px;
+}
+.container{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.8), 0 6px 20px 0 rgba(0, 0, 0, 0.8);
+}

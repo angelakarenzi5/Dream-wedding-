@@ -17,6 +17,9 @@ function myFunction() {
       }
     }
   }
+<<<<<<< HEAD
+  
+=======
 function myFunction1() {
   document.getElementById("myDropdown1").classList.toggle("show");
   document.getElementById("myDropdown").classList.remove("show");
@@ -53,3 +56,4 @@ window.onclick = function(event) {
     }
   }
 }
+>>>>>>> cfa15ad513aa5f9f515e962369da6bdfc1f0af36
