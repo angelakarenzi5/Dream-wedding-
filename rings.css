@@ -1,0 +1,20 @@
+body{
+  background-image:url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRNaUggkCjvHl21BTnn3dTQWxLlxuVeTr4-phv_Vj3N1TVD6Nce");
+ background-size:cover;
+ font-family: Georgia, "Arial",
+ Times, serif;
+color:blue;
+background-color: #d8da3d;
+}
+h1 {
+font-family: Helvetica, Geneva, Arial,
+ SunSans-Regular, sans-serif 
+}
+
+img{
+  width: 450px;
+  height: 500px;
+}
+.container{
+  box-shadow: 10px 10px grey;
+}

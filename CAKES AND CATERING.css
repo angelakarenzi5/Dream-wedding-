@@ -1,0 +1,17 @@
+body {
+ 
+    text-align:center;
+    background-color:rgb(195, 122, 255);
+    margin:10px;
+    height:300px;
+    width:100%;
+    font-family:Times New Roman;
+}
+
+img{
+    
+    float: left;
+    padding:25px;
+    position: relative;
+    right:-20PX;
+}
