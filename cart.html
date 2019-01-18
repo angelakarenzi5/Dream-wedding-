@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>ORDER CART</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+  
+  <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+
+  <script type="text/javascript" src="jquery-3.2.1.js"></script>
+  <script type="text/javascript" src="jscript.js"></script>
+  <link rel="stylesheet" type="text/css" href="cart.css">
+</head>
+<body>
+  
+  <button onclick="topFunction()" id="myBtn" title="Go to top" width="35px" height="35px" align="right">⇑</button>
+  
+    <h1> shopping cart</h1>
+    <p>this card lets our clients know the budget they can use. they can selet choose item according to they financial level and let us plan their event accordingly</p>
+
+
+  <div class="container-fluid" id="maincontainer">
+    <div align="center" id="row1" class="row">
+      <div class="col-md-4" style="padding-bottom: 15px;">
+        <img src="img/beach2.jpeg" height="400px" width="150vw">
+        <div id="pro-info">
+          <p> RECEPTION LOCATION| Price : 1200$</p>
+          <button class="btn btn-secondary" id="btn1">ORDER</button>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <img src="img/decor4.jpeg" height="400px" width="300px">
+        <div id="pro-info">
+          <p> luxry decor | Price : 385$</p>
+          <button class="btn btn-secondary" id="btn2">Order</button>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <img src="img/flower1.jpeg" height="400px" width="300px">
+        <div id="pro-info">
+          <p> FRESH FLOWER| Price : 102$</p>
+          <button class="btn btn-secondary" id="btn3">Order</button>
+        </div>
+      </div>
+      </div>
+      <div align="center" id="row1" class="row">
+      <div class="col-md-4">
+        <img src="img/video.jpeg" height="400px" width="300px">
+        <div id="pro-info">
+          <p>GROOMS WEAR | Price : 35$</p>
+          <button class="btn btn-secondary" id="btn4">Order</button>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <img src="img/fille1.jpeg" height="400px" width="300px">
+        <div id="pro-info">
+          <p> BRAIDMAID DRESSES | Price : 20$</p>
+          <button class="btn btn-secondary" id="btn5">Order</button>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <img src="img/car1.jpeg" height="400px" width="300px">
+        <div id="pro-info">
+          <p>Range Rover| Price : 82$</p>
+          <button class="btn btn-secondary" id="btn6">ORDER</button>
+        </div>
+      </div>
+      </div>
+  </div>
+
+<div id="cartmain" class="container-fluid">
+  <div class="container" id="cart">
+    <div class="row">
+      <div class="col-md-12" id="cart-heading" align="center">
+        Shopping Cart
+      </div>
+    </div>
+    <hr>
+    <div class="row" id="table-row">
+      <table class="table table-striped" id="item-table">
+        <thead>
+          <tr>
+            <th>Item Id</th>
+            <th>Product Name</th>
+            <th>Price Name</th>
+            <th>Quantity</th>
+            <th>Total</th>
+          </tr>
+        </thead>
+        <tbody id="item-table-body">
+
+        </tbody>
+      </table>
+
+    </div>
+      <div class="row" align="center">
+        <div class="col-md-12">
+          <div>Grand Total : <label id="totalLabel">0</label>
+        </div>
+      </div>
+    </div>
+    <hr>
+
+  </div>
+</div>
+<div id="about" class="container-fluid">  <!-- This div should contain Information about your company -->
+  
+  <div class="row" id="about-row">
+    <div class="col-md-12" align="center">
+    
+    </div>
+  </div>
+
+</div>
+
+</body>
+</html>

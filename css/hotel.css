@@ -1,6 +1,38 @@
-#one,#two,#three,#four,#five{
+body{
+    background-image:url("https://images.pexels.com/photos/346271/exposure-long-photography-rotterdam-346271.jpeg");
+    background-repeat: no-repeat;
+     background-size: cover;
+     background-attachment: fixed;
+}
+h1{
+    color: goldenrod;
+    font-family: "serif";
+   font-weight: bold;
+   text-align: center;
+   font-size: xx-large;
+}
+.hot{
+    text-align: center;
     padding:10px;
+    
+}
+p{
+    color: white;
+    font-family: cursive;
+    text-align:center;
+    padding-right: 30%;
+    padding-left: 30%;
+    font-weight: bold;
+     text-align: center;
+}
+h2{
+  color: goldenrod;
+   font-family: "serif";
+   font-weight: bold;
+   text-align: center;
+   font-size: x-large;
 }
 img{
-    padding:70px;
+    padding-right: 30%;
+    padding-left: 30%;
 }

@@ -1,5 +1,33 @@
-img .decol{
-    float:left;
-    clear:both;
+body{
+  background-image: url("https://images.pexels.com/photos/355590/pexels-photo-355590.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+/* #image {
+    display: flex;
+    flex-direction: row;
+} */
+h1{
+    color:rgb(255, 60, 0);
+    font-family: "Sans-serif";
+   font-weight: bold;
+   text-align: center;
+   font-size: xx-large;
+}
+#first > p{
+  font-family: "cursive";
+  font-size: 16px;
+  line-height: 1.5;
+  font-weight: bold;
+  color: black;
+}
+.row image > p {
+  font-family: "cursive";
+  font-size: 16px;
+  line-height: 1.5;
+  font-weight: bold;
+  color: black;
+}
 
 }
